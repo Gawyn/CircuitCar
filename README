@@ -1,0 +1,13 @@
+Per posar-lo en marxa:
+qmake
+make
+cd app
+./PracticaVIG
+
+
+Per rotar la vista, botó esquerre del mouse + moviment del mouse
+Per rotar només el cotxe, botó dret del mouse + moviment HORITZONTAL del mouse
+Per fer zoom sobre la vista, botó esquerre del mouse + shift + moviment VERTICAL del mouse
+Per fer pan sobre la vista, botó dret del mouse + shift + moviment del mouse
+
+La Check Box per a posar en marxa i parar el cotxe no serveix de res fins que es carrega el cotxe. El cotxe està en marxa de forma predeterminada.

@@ -1,0 +1,305 @@
+<ui version="4.0" >
+ <class>Principal</class>
+ <widget class="QWidget" name="Principal" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>822</width>
+    <height>581</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Form1</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2" >
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout" >
+     <item>
+      <widget class="GLWidget" name="gLWidget1" >
+       <property name="sizePolicy" >
+        <sizepolicy vsizetype="Expanding" hsizetype="Expanding" >
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize" >
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2" >
+       <item>
+        <widget class="QPushButton" name="ConfLlums" >
+         <property name="text" >
+          <string>Configurar Llums</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer" >
+         <property name="orientation" >
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0" >
+          <size>
+           <width>138</width>
+           <height>238</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout" >
+         <item>
+          <widget class="QSlider" name="sliderSpeed" >
+           <property name="sizePolicy" >
+            <sizepolicy vsizetype="Fixed" hsizetype="Minimum" >
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="maximumSize" >
+            <size>
+             <width>16777215</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="minimum" >
+            <number>5</number>
+           </property>
+           <property name="maximum" >
+            <number>50</number>
+           </property>
+           <property name="orientation" >
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_4" />
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_6" />
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_5" >
+           <item>
+            <widget class="QCheckBox" name="OnOff" >
+             <property name="text" >
+              <string/>
+             </property>
+             <property name="checked" >
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label" >
+             <property name="text" >
+              <string>Cotxe en marxa</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3" >
+           <item>
+            <widget class="QCheckBox" name="OnOff_2" >
+             <property name="text" >
+              <string/>
+             </property>
+             <property name="checked" >
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_2" >
+             <property name="text" >
+              <string>Càmera en 1a Persona</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton2" >
+           <property name="text" >
+            <string>Carregar Vehicle</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_7" >
+           <item>
+            <widget class="QPushButton" name="Reset" >
+             <property name="text" >
+              <string>Reset</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton1" >
+             <property name="sizePolicy" >
+              <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize" >
+              <size>
+               <width>75</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="text" >
+              <string>&amp;Sortir</string>
+             </property>
+             <property name="shortcut" >
+              <string>Alt+S</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <customwidgets>
+  <customwidget>
+   <class>GLWidget</class>
+   <extends>QWidget</extends>
+   <header>glwidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <includes>
+  <include location="local" >glwidget.h</include>
+ </includes>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton1</sender>
+   <signal>clicked()</signal>
+   <receiver>Principal</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>381</x>
+     <y>290</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton2</sender>
+   <signal>clicked()</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>OpenFile()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>639</x>
+     <y>486</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>265</x>
+     <y>290</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Reset</sender>
+   <signal>clicked()</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>Reset()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>618</x>
+     <y>561</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>278</x>
+     <y>290</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sliderSpeed</sender>
+   <signal>sliderMoved(int)</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>SetSpeed(int)</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>645</x>
+     <y>442</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>223</x>
+     <y>290</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>OnOff</sender>
+   <signal>stateChanged(int)</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>CotxeOnOff()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>609</x>
+     <y>501</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>279</x>
+     <y>290</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>OnOff_2</sender>
+   <signal>stateChanged(int)</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>PrimeraPersona()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>592</x>
+     <y>472</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>281</x>
+     <y>290</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ConfLlums</sender>
+   <signal>clicked()</signal>
+   <receiver>gLWidget1</receiver>
+   <slot>mostraLlums()</slot>
+   <hints>
+    <hint type="sourcelabel" >
+     <x>731</x>
+     <y>18</y>
+    </hint>
+    <hint type="destinationlabel" >
+     <x>323</x>
+     <y>290</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,804 @@
+<scene>
+	<objects>
+		<object file="fletxadreta.obj" name="DRETA"></object>
+		<object file="fletxaesquerra.obj" name="ESQUERRA"></object>
+		<object file="fletxarecta.obj" name="RECTA"></object>
+		<object file="arbre.obj" name="ARBRE"></object>	
+		<object file="pedres.obj" name="PEDRES"></object>	
+		<object file="casa.obj" name="CASA"></object>	
+		<object file="fletxadoble.obj" name="DOBLE"></object>
+		<object file="fletxatriple.obj" name="TRIPLE"></object>
+		<object file="farola.obj" name="FANAL"></object>
+	</objects>
+	
+	
+	<description>		
+		<objectref object="RECTA" id="0">
+			<position x="0" y="0" z="0"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>180</orientation>
+			<destination>1</destination>
+		</objectref>			
+		<objectref object="RECTA" id="1">
+			<position x="1" y="0" z="0"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>180</orientation>
+			<destination>2</destination>
+		</objectref>
+		<objectref object="RECTA" id="2">
+			<position x="2" y="0" z="0"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>180</orientation>
+			<destination>3</destination>
+		</objectref>
+		<objectref object="DRETA" id="3">
+			<position x="3" y="0" z="0"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>180</orientation>
+			<destination>4</destination>
+		</objectref>
+		<objectref object="RECTA" id="4">
+			<position x="3" y="0" z="1"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>90</orientation>
+			<destination>5</destination>
+		</objectref>
+		<objectref object="RECTA" id="5">
+			<position x="3" y="0" z="2"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>90</orientation>
+			<destination>6</destination>
+		</objectref>
+		<objectref object="RECTA" id="6">
+			<position x="3" y="0" z="3"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>90</orientation>
+			<destination>7</destination>
+		</objectref>
+		<objectref object="DOBLE" id="7">
+			<position x="3" y="0" z="4"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>90</orientation>
+			<destination>8</destination>
+			<destination>18</destination>
+		</objectref>
+		<objectref object="RECTA" id="8">
+			<position x="2" y="0" z="4"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>0</orientation>
+			<destination>9</destination>
+		</objectref>
+		<objectref object="RECTA" id="9">
+			<position x="1" y="0" z="4"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>0</orientation>
+			<destination>10</destination>
+		</objectref>
+		<objectref object="RECTA" id="10">
+			<position x="0" y="0" z="4"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>0</orientation>
+			<destination>11</destination>
+		</objectref>
+		<objectref object="RECTA" id="11">
+			<position x="-1" y="0" z="4"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>0</orientation>
+			<destination>12</destination>
+		</objectref>
+		<objectref object="TRIPLE" id="12">
+			<position x="-2" y="0" z="4"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>0</orientation>
+			<destination>13</destination>
+			<destination>39</destination>
+			<destination>20</destination>
+		</objectref>
+		<objectref object="RECTA" id="13">
+			<position x="-2" y="0" z="3"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>270</orientation>
+			<destination>14</destination>
+		</objectref>
+		<objectref object="RECTA" id="14">
+			<position x="-2" y="0" z="2"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>270</orientation>
+			<destination>15</destination>
+		</objectref>
+		<objectref object="RECTA" id="15">
+			<position x="-2" y="0" z="1"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>270</orientation>
+			<destination>16</destination>
+		</objectref>
+		<objectref object="DRETA" id="16">
+			<position x="-2" y="0" z="0"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>270</orientation>
+			<destination>17</destination>
+		</objectref>
+		<objectref object="RECTA" id="17">
+			<position x="-1" y="0" z="0"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>180</orientation>
+			<destination>0</destination>
+		</objectref>
+		
+		
+		
+		<objectref object="RECTA" id="18">
+			<position x="4" y="0" z="4"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>180</orientation>
+			<destination>19</destination>
+		</objectref>
+		<objectref object="RECTA" id="19">
+			<position x="5" y="0" z="4"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>180</orientation>
+			<destination>33</destination>
+		</objectref>
+		
+		<objectref object="RECTA" id="20">
+			<position x="-2" y="0" z="5"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>90</orientation>
+			<destination>21</destination>
+		</objectref>
+
+		<objectref object="RECTA" id="21">
+			<position x="-2" y="0" z="6"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>90</orientation>
+			<destination>22</destination>
+		</objectref>
+		
+		<objectref object="ESQUERRA" id="22">
+			<position x="-2" y="0" z="7"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>90</orientation>
+			<destination>23</destination>
+		</objectref>
+
+		<objectref object="RECTA" id="23">
+			<position x="-1" y="0" z="7"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>180</orientation>
+			<destination>24</destination>
+		</objectref>
+		
+		<objectref object="RECTA" id="24">
+			<position x="0" y="0" z="7"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>180</orientation>
+			<destination>25</destination>
+		</objectref>
+		
+		<objectref object="RECTA" id="25">
+			<position x="1" y="0" z="7"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>180</orientation>
+			<destination>26</destination>
+		</objectref>
+		
+		<objectref object="RECTA" id="26">
+			<position x="2" y="0" z="7"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>180</orientation>
+			<destination>27</destination>
+		</objectref>
+		
+		<objectref object="RECTA" id="27">
+			<position x="3" y="0" z="7"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>180</orientation>
+			<destination>28</destination>
+		</objectref>
+		
+		<objectref object="RECTA" id="28">
+			<position x="4" y="0" z="7"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>180</orientation>
+			<destination>29</destination>
+		</objectref>
+		
+		<objectref object="RECTA" id="29">
+			<position x="5" y="0" z="7"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>180</orientation>
+			<destination>30</destination>
+		</objectref>
+		
+		<objectref object="ESQUERRA" id="30">
+			<position x="6" y="0" z="7"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>180</orientation>
+			<destination>31</destination>
+		</objectref>	
+		
+		<objectref object="RECTA" id="31">
+			<position x="6" y="0" z="6"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>270</orientation>
+			<destination>32</destination>
+		</objectref>
+		
+		<objectref object="RECTA" id="32">
+			<position x="6" y="0" z="5"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>270</orientation>
+			<destination>33</destination>
+		</objectref>
+		
+		<objectref object="RECTA" id="33">
+			<position x="6" y="0" z="4"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>270</orientation>
+			<destination>34</destination>
+		</objectref>
+		
+		<objectref object="RECTA" id="34">
+			<position x="6" y="0" z="3"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>270</orientation>
+			<destination>35</destination>
+		</objectref>
+		
+		<objectref object="RECTA" id="35">
+			<position x="6" y="0" z="2"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>270</orientation>
+			<destination>36</destination>
+		</objectref>
+		
+		<objectref object="ESQUERRA" id="36">
+			<position x="6" y="0" z="1"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>270</orientation>
+			<destination>37</destination>
+		</objectref>
+		
+		<objectref object="RECTA" id="37">
+			<position x="5" y="0" z="1"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>0</orientation>
+			<destination>38</destination>
+		</objectref>
+		
+		<objectref object="RECTA" id="38">
+			<position x="4" y="0" z="1"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>0</orientation>
+			<destination>4</destination>
+		</objectref>
+		
+		<objectref object="RECTA" id="39">
+			<position x="-3" y="0" z="4"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>0</orientation>
+			<destination>40</destination>
+		</objectref>	
+		<objectref object="RECTA" id="40">
+			<position x="-4" y="0" z="4"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>0</orientation>
+			<destination>41</destination>
+		</objectref>
+		
+		<objectref object="ESQUERRA" id="41">
+			<position x="-5" y="0" z="4"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>0</orientation>
+			<destination>42</destination>
+		</objectref>
+		
+		<objectref object="RECTA" id="42">
+			<position x="-5" y="0" z="5"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>90</orientation>
+			<destination>43</destination>
+		</objectref>
+		
+		<objectref object="ESQUERRA" id="43">
+			<position x="-5" y="0" z="6"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>90</orientation>
+			<destination>44</destination>
+		</objectref>
+		
+		<objectref object="RECTA" id="44">
+			<position x="-4" y="0" z="6"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>180</orientation>
+			<destination>45</destination>
+		</objectref>	
+		<objectref object="RECTA" id="45">
+			<position x="-3" y="0" z="6"></position>
+			<sizex>1</sizex>
+			<sizey>0.1</sizey>
+			<sizez>1</sizez>
+			<orientation>180</orientation>
+			<destination>21</destination>
+		</objectref>
+		
+		<objectref object="ARBRE">
+			<position x="0" y="0" z="0.8"></position>
+			<sizex>1</sizex>
+			<sizey>1</sizey>
+			<sizez>1</sizez>
+			<orientation>0</orientation>
+		</objectref>
+		<objectref object="ARBRE">
+			<position x="0" y="0" z="-0.8"></position>
+			<sizex>1</sizex>
+			<sizey>1</sizey>
+			<sizez>1</sizez>
+			<orientation>45</orientation>
+		</objectref>
+		<objectref object="ARBRE">
+			<position x="1" y="0" z="0.8"></position>
+			<sizex>1</sizex>
+			<sizey>1</sizey>
+			<sizez>1</sizez>
+			<orientation>0</orientation>
+		</objectref>
+		<objectref object="ARBRE">
+			<position x="1" y="0" z="-0.8"></position>
+			<sizex>1</sizex>
+			<sizey>1</sizey>
+			<sizez>1</sizez>
+			<orientation>45</orientation>
+		</objectref>
+		<objectref object="ARBRE">
+			<position x="2" y="0" z="0.8"></position>
+			<sizex>1</sizex>
+			<sizey>1</sizey>
+			<sizez>1</sizez>
+			<orientation>0</orientation>
+		</objectref>
+		<objectref object="ARBRE">
+			<position x="2" y="0" z="-0.8"></position>
+			<sizex>1</sizex>
+			<sizey>1</sizey>
+			<sizez>1</sizez>
+			<orientation>45</orientation>
+		</objectref>
+		
+		<objectref object="ARBRE">
+			<position x="4" y="0" z="1.7"></position>
+			<sizex>1</sizex>
+			<sizey>1</sizey>
+			<sizez>1</sizez>
+			<orientation>0</orientation>
+		</objectref>
+		<objectref object="ARBRE">
+			<position x="5" y="0" z="2"></position>
+			<sizex>1</sizex>
+			<sizey>1</sizey>
+			<sizez>1</sizez>
+			<orientation>45</orientation>
+		</objectref>
+		<objectref object="ARBRE">
+			<position x="4.3" y="0" z="3"></position>
+			<sizex>1</sizex>
+			<sizey>1</sizey>
+			<sizez>1</sizez>
+			<orientation>90</orientation>
+		</objectref>
+		
+		<objectref object="PEDRES">
+			<position x="1.8" y="0" z="0.8"></position>
+			<sizex>0.3</sizex>
+			<sizey>0.1</sizey>
+			<sizez>0.2</sizez>
+			<orientation>0</orientation>
+		</objectref>
+		<objectref object="PEDRES">
+			<position x="1.8" y="0" z="1.2"></position>
+			<sizex>0.3</sizex>
+			<sizey>0.1</sizey>
+			<sizez>0.2</sizez>
+			<orientation>50</orientation>
+		</objectref>
+		
+		<objectref object="PEDRES">
+			<position x="-1" y="0" z="3"></position>
+			<sizex>0.3</sizex>
+			<sizey>0.1</sizey>
+			<sizez>0.2</sizez>
+			<orientation>0</orientation>
+		</objectref>
+		<objectref object="PEDRES">
+			<position x="-0.5" y="0" z="3"></position>
+			<sizex>0.4</sizex>
+			<sizey>0.2</sizey>
+			<sizez>0.3</sizez>
+			<orientation>50</orientation>
+		</objectref>
+		<objectref object="PEDRES">
+			<position x="0.5" y="0" z="2.5"></position>
+			<sizex>0.4</sizex>
+			<sizey>0.2</sizey>
+			<sizez>0.3</sizez>
+			<orientation>50</orientation>
+		</objectref>
+		
+		<objectref object="CASA">
+			<position x="2" y="0" z="2"></position>
+			<sizex>1.5</sizex>
+			<sizey>1.5</sizey>
+			<sizez>1.5</sizez>
+			<orientation>90</orientation>
+		</objectref>
+		
+		<objectref object="CASA">
+			<position x="-0.8" y="0" z="5.5"></position>
+			<sizex>1.5</sizex>
+			<sizey>1.5</sizey>
+			<sizez>1.5</sizez>
+			<orientation>270</orientation>
+		</objectref>
+		
+		<objectref object="ARBRE">
+			<position x="0.8" y="0" z="6.3"></position>
+			<sizex>1</sizex>
+			<sizey>1</sizey>
+			<sizez>1</sizez>
+			<orientation>90</orientation>
+		</objectref>
+		
+		<objectref object="ARBRE">
+			<position x="1.8" y="0" z="6.3"></position>
+			<sizex>1</sizex>
+			<sizey>1</sizey>
+			<sizez>1</sizez>
+			<orientation>45</orientation>
+		</objectref>
+		
+		<objectref object="ARBRE">
+			<position x="2.8" y="0" z="6.3"></position>
+			<sizex>1</sizex>
+			<sizey>1</sizey>
+			<sizez>1</sizez>
+			<orientation>0</orientation>
+		</objectref>
+		
+		<objectref object="ARBRE">
+			<position x="3.8" y="0" z="6.3"></position>
+			<sizex>1</sizex>
+			<sizey>1</sizey>
+			<sizez>1</sizez>
+			<orientation>270</orientation>
+		</objectref>
+		
+		
+		
+		<objectref object="ARBRE">
+			<position x="0.8" y="0" z="5"></position>
+			<sizex>1</sizex>
+			<sizey>1</sizey>
+			<sizez>1</sizez>
+			<orientation>90</orientation>
+		</objectref>
+		
+		<objectref object="ARBRE">
+			<position x="1.8" y="0" z="5"></position>
+			<sizex>1</sizex>
+			<sizey>1</sizey>
+			<sizez>1</sizez>
+			<orientation>45</orientation>
+		</objectref>
+		
+		<objectref object="ARBRE">
+			<position x="2.8" y="0" z="5"></position>
+			<sizex>1</sizex>
+			<sizey>1</sizey>
+			<sizez>1</sizez>
+			<orientation>0</orientation>
+		</objectref>
+		
+		<objectref object="ARBRE">
+			<position x="3.8" y="0" z="5"></position>
+			<sizex>1</sizex>
+			<sizey>1</sizey>
+			<sizez>1</sizez>
+			<orientation>270</orientation>
+		</objectref>
+		
+		<objectref object="PEDRES">
+			<position x="4" y="0" z="5"></position>
+			<sizex>0.4</sizex>
+			<sizey>0.2</sizey>
+			<sizez>0.3</sizez>
+			<orientation>50</orientation>
+		</objectref>
+		<objectref object="PEDRES">
+			<position x="5" y="0" z="5"></position>
+			<sizex>0.4</sizex>
+			<sizey>0.2</sizey>
+			<sizez>0.3</sizez>
+			<orientation>30</orientation>
+		</objectref>
+		
+		<objectref object="PEDRES">
+			<position x="4.2" y="0" z="6"></position>
+			<sizex>0.4</sizex>
+			<sizey>0.2</sizey>
+			<sizez>0.3</sizez>
+			<orientation>210</orientation>
+		</objectref>
+		<objectref object="PEDRES">
+			<position x="5.1" y="0" z="5.8"></position>
+			<sizex>0.4</sizex>
+			<sizey>0.2</sizey>
+			<sizez>0.3</sizez>
+			<orientation>120</orientation>
+		</objectref>
+
+		<objectref object="FANAL">
+			<position x="-2.5" y="0.0" z="0.0"></position>
+			<sizex>0.5</sizex>
+			<sizey>1</sizey>
+			<sizez>0.3</sizez>
+			<orientation>0</orientation>
+		</objectref>				
+
+		<objectref object="FANAL">
+			<position x="-2.5" y="0.0" z="1.5"></position>
+			<sizex>0.5</sizex>
+			<sizey>1</sizey>
+			<sizez>0.3</sizez>
+			<orientation>0</orientation>
+		</objectref>
+
+		<objectref object="FANAL">
+			<position x="-2.5" y="0.0" z="3.0"></position>
+			<sizex>0.5</sizex>
+			<sizey>1</sizey>
+			<sizez>0.3</sizez>
+			<orientation>0</orientation>
+		</objectref>
+
+		<objectref object="FANAL">
+			<position x="-3.5" y="0.0" z="3.4"></position>
+			<sizex>0.5</sizex>
+			<sizey>1</sizey>
+			<sizez>0.3</sizez>
+			<orientation>270</orientation>
+		</objectref>
+
+		<objectref object="FANAL">
+			<position x="-5" y="0.0" z="3.4"></position>
+			<sizex>0.5</sizex>
+			<sizey>1</sizey>
+			<sizez>0.3</sizez>
+			<orientation>270</orientation>
+		</objectref>
+
+		<objectref object="FANAL">
+			<position x="-5.5" y="0.0" z="5"></position>
+			<sizex>0.5</sizex>
+			<sizey>1</sizey>
+			<sizez>0.3</sizez>
+			<orientation>0</orientation>
+		</objectref>
+
+		<objectref object="FANAL">
+			<position x="-5" y="0.0" z="6.5"></position>
+			<sizex>0.5</sizex>
+			<sizey>1</sizey>
+			<sizez>0.3</sizez>
+			<orientation>90</orientation>
+		</objectref>
+
+		<objectref object="FANAL">
+			<position x="-3.5" y="0.0" z="6.5"></position>
+			<sizex>0.5</sizex>
+			<sizey>1</sizey>
+			<sizez>0.3</sizez>
+			<orientation>90</orientation>
+		</objectref>
+
+		<objectref object="FANAL">
+			<position x="-2" y="0.0" z="7.5"></position>
+			<sizex>0.5</sizex>
+			<sizey>1</sizey>
+			<sizez>0.3</sizez>
+			<orientation>90</orientation>
+		</objectref>
+
+		<objectref object="FANAL">
+			<position x="0" y="0.0" z="7.5"></position>
+			<sizex>0.5</sizex>
+			<sizey>1</sizey>
+			<sizez>0.3</sizez>
+			<orientation>90</orientation>
+		</objectref>
+
+		<objectref object="FANAL">
+			<position x="2" y="0.0" z="7.5"></position>
+			<sizex>0.5</sizex>
+			<sizey>1</sizey>
+			<sizez>0.3</sizez>
+			<orientation>90</orientation>
+		</objectref>
+
+		<objectref object="FANAL">
+			<position x="4" y="0.0" z="7.5"></position>
+			<sizex>0.5</sizex>
+			<sizey>1</sizey>
+			<sizez>0.3</sizez>
+			<orientation>90</orientation>
+		</objectref>
+
+		<objectref object="FANAL">
+			<position x="6" y="0.0" z="7.5"></position>
+			<sizex>0.5</sizex>
+			<sizey>1</sizey>
+			<sizez>0.3</sizez>
+			<orientation>90</orientation>
+		</objectref>
+
+		<objectref object="FANAL">
+			<position x="6.5" y="0.0" z="6"></position>
+			<sizex>0.5</sizex>
+			<sizey>1</sizey>
+			<sizez>0.3</sizez>
+			<orientation>180</orientation>
+		</objectref>
+
+		<objectref object="ARBRE">
+			<position x="6.7" y="0" z="5"></position>
+			<sizex>1</sizex>
+			<sizey>1</sizey>
+			<sizez>1</sizez>
+			<orientation>270</orientation>
+		</objectref>
+
+		<objectref object="FANAL">
+			<position x="6.5" y="0.0" z="4"></position>
+			<sizex>0.5</sizex>
+			<sizey>1</sizey>
+			<sizez>0.3</sizez>
+			<orientation>180</orientation>
+		</objectref>
+
+		<objectref object="ARBRE">
+			<position x="6.7" y="0" z="3"></position>
+			<sizex>1</sizex>
+			<sizey>1</sizey>
+			<sizez>1</sizez>
+			<orientation>0</orientation>
+		</objectref>
+
+		<objectref object="FANAL">
+			<position x="6.5" y="0.0" z="2"></position>
+			<sizex>0.5</sizex>
+			<sizey>1</sizey>
+			<sizez>0.3</sizez>
+			<orientation>180</orientation>
+		</objectref>
+
+		<objectref object="FANAL">
+			<position x="1" y="0.0" z="1.5"></position>
+			<sizex>0.5</sizex>
+			<sizey>1</sizey>
+			<sizez>0.3</sizez>
+			<orientation>270</orientation>
+		</objectref>
+
+		<objectref object="ARBRE">
+			<position x="-3" y="0" z="5"></position>
+			<sizex>1.5</sizex>
+			<sizey>1.5</sizey>
+			<sizez>1.5</sizez>
+			<orientation>0</orientation>
+		</objectref>
+
+		<objectref object="PEDRES">
+			<position x="-3.2" y="0" z="5"></position>
+			<sizex>0.4</sizex>
+			<sizey>0.2</sizey>
+			<sizez>0.3</sizez>
+			<orientation>210</orientation>
+		</objectref>
+		<objectref object="PEDRES">
+			<position x="-3.8" y="0" z="5.3"></position>
+			<sizex>0.4</sizex>
+			<sizey>0.2</sizey>
+			<sizez>0.3</sizez>
+			<orientation>120</orientation>
+		</objectref>
+	</description>
+</scene>
